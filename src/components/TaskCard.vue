@@ -10,7 +10,7 @@
 <script>
 export default {
   props: {
-    values: Object,
+    values: { type: Object, required: true },
     color: { type: String, required: true },
   },
 };

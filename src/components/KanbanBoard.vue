@@ -3,7 +3,6 @@
     <div class="col-md-3" v-for="field in fields" :key="field.title">
       <div class="p-2 alert shadow-sm rounded" :class="field.color">
         <h3 class="fw-semi">{{ field.title }}</h3>
-
         <draggable
           class="list-group kanban-col"
           :list="field.tasks"
